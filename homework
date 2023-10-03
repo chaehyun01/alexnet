@@ -117,3 +117,7 @@ def alexnet(*, weights: Optional[AlexNet_Weights] = None, progress: bool = True,
         model.load_state_dict(weights.get_state_dict(progress=progress, check_hash=True))
 
     return model
+
+### 느낀점
+### 코드에 대한 기초 지식이 많이 부족하여, 구글 및 여러 사이트를 통해 찾을 수 있었으나 아직은 많이 어려운 것 같습니다.
+### AlexNet이 이론으로 배울때는 이해가 많이 가진 않았지만, 코드를 구현해 보니 그나마 조금 더 이해가 갔습니다. 
